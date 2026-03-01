@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    background-color: #009688;
+
+}
+
+.continer{
+    background-color: #eee;
+    padding: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.continer input{
+    width: 100%;
+    padding: 9px 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.continer .buttoms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+
+.continer .buttoms span{
+    background-color: #009688;
+    color: white;
+    padding:6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media(max-width:430px){
+    .continer .buttoms{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .continer .buttoms span{
+        margin-bottom: 20px;
+    }
+}
+
+.continer .resulets{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+.continer .resulets > .inte{
+
+}
+.del{
+    color: #009688;
+    font-weight: bold;
+    font-size: 20px;
+}
+ div.showele {
+    color: #009688;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
